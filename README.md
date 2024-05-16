@@ -1,0 +1,5 @@
+- Download data from an API
+- Sketch the UX
+  - Select rows
+  - Select columns
+  - Visualize data
