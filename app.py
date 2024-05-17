@@ -2,7 +2,7 @@ import pandas as pd
 import streamlit as st
 import plotly.express as px
 
-df_base = pd.read_excel('data/gapminder.xlsx')
+df_base = pd.read_csv('data/gapminder.csv')
 
 options_year = df_base['year'].unique()
 value_year = st.selectbox('Year', options_year)
